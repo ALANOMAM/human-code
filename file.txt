@@ -3,19 +3,24 @@
    Noi diamo per scontato che di raggiungere un determinato posto, attraversare un incrocio.
 
    -Ci approcciamo all'incrocio.
-     -SE c'è un sovrapassaggio o sottopassaggio, raggiungo l'altra parte .
-     -ALTRIMENTI vado avanti.
+     -SE c'è un sovrapassaggio o sottopassaggio,
+        - raggiungo l'altra parte 
+        - FINE
+     -ALTRIMENTI.
+        -Cerco semaforo
+            -SE c'è il semaforo,
+                -SE è verde 
+                    - vado avanti. 
+                -ALTRIMENTI 
+                     -spetto, FINCHé non diventa verde.
 
-   -Cerco semaforo
-     -SE c'è il semaforo,
-      -SE è verde vado avanti. 
-      -ALTRIMENTI aspetto, FINCHé non diventa verde.
-
-   -ALTRIMENTI cerco le strisce SINCHé non le trovo e vado avanti.
+            - ALTRIMENTI 
+                -cerco le strisce SINCHé non le trovo e vado avanti.
       
    -Guardo a destra e sinistra
-    -SE la strada è libera, vado avanti.
-    -ALTRIMENTI aspetto FINCHé è libera, poi vado avanti.
+     -SE la strada è libera
+       -vado avanti.
+     -ALTRIMENTI aspetto FINCHé è libera, poi vado avanti.
     
 
-   -Attraverso l'incrocio e raggiungo l'altra parte.
+   -FINE. 
